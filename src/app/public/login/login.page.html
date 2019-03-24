@@ -1,0 +1,23 @@
+<!--Page header-->
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+ 
+<!--The login page that user sees first when they enter the app-->
+<ion-content padding>
+  <!--Inputs are made by ion-items to have good looking styling, 
+    altough they are not working-->
+  <ion-item>
+    <ion-label style="width: 80px;">Name</ion-label>
+    <ion-input placeholder="Write something.."></ion-input>
+  </ion-item>
+  <ion-item>
+      <ion-label style="width: 80px;">Password</ion-label>
+      <ion-input placeholder="Write something.." type="password"></ion-input>
+  </ion-item>
+  <!--Buttons to login or register-->
+  <ion-button id="loginbtn" (click)="login()" expand="block">Login</ion-button>
+  <ion-button expand="block" color="secondary" href="/register" routerDirection="forward">Register</ion-button>
+</ion-content>

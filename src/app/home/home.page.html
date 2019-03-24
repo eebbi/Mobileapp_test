@@ -1,0 +1,32 @@
+
+<!-- Erik Vänttinen
+      1601534 -->
+
+<!-- Header content -->
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      About
+    </ion-title>
+    
+  </ion-toolbar>
+</ion-header>
+
+<!-- Frontpage content -->
+<ion-content padding>
+
+  <div id="logout">
+    <ion-button (click)="logout()">LOG OUT</ion-button>
+  </div>
+  <ion-card padding>
+        <!--Image that shows my picture-->
+        <img src="../assets/images/erok.png" />
+        <!--The info text-->
+        <h3 style="margin-top: 0;">Erik Vänttinen</h3>
+        <ion-text>25 year old man from Helsinki, Finland</ion-text>
+        <p>I am a motivated student who's interested in all kinds of IT development.</p>
+  </ion-card>
+</ion-content>
