@@ -1,1 +1,1 @@
-Mobileapp_test
+Mobile app made for the Test-2 of the Mobile app design and development -course.

@@ -2,6 +2,17 @@
     padding-top: 20px;
 }
 
+.btncont {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btns {
+    width: 70%;
+}
+
 .button {
     padding-top: 10px;
 }

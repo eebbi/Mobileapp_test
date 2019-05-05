@@ -28,7 +28,7 @@ const routes = [
   {
     path: "projects",
     loadChildren: '../projects/projects.module#ProjectsPageModule'
-  }
+  },
 ];
 @NgModule({
   imports: [RouterModule.forChild(routes), CommonModule],
